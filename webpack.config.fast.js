@@ -20,8 +20,11 @@ module.exports = {
     },
     optimization: {
       minimize: false,
+      minimizer: [],
     },
     stats: {
       optimizationBailout: true,
     },
+    parallelism: 1,
+    profile: true
   };
